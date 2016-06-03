@@ -1,0 +1,35 @@
+<html><head><title>Feld bevorzugen</title></head> <body bgcolor="#c0c0c0">
+<a href="STADT_BE.htm"><img src="zurueck.png" border="0"></a> 
+<a href="STADT_NB.htm"><img src="weiter.png" border="0"></a> 
+<a href="kpBefehl.htm"><img src="hoch.png" border="0"></a>
+<a href="index.htm"><img src="inhalt.png" border="0"></a>
+<hr>
+<!befehl><a name="STADT_FB">
+  <table border="0" width="100%" bgcolor="#d0d0d0" cellspacing="0">
+    <tr><td><font size="+2"><b>FB</b> <i>Richtung</i></font></td><td align=right><font size="+2">&nbsp;Dauer: 1</font></td><tr>
+  </table>
+<!"Feld bevorzugen"!><table cellpadding="2" width="100%"><tr><td valign=top><img src="wichtig.png"></td><td width="100%"><font size="+2"><b>Feld bevorzugen</b></font></td><td align=right><font size="+2"><b>(Stadt)</b></font></td></tr></table>
+
+<p>Um den Befehl <b><a href="STADT_FB.htm">FB</a></b> zu verstehen, muß man sich klarmachen, welche Felder eine Stadt im allgemeinen bewirtschaftet. Die Stadt geht folgendermaßen vor: Zuerst berechnet sie, wieviele Felder überhaupt bewirtschaftet werden können/sollen. Dabei gehen die vorhandene Arbeitskraft und der Befehl <b><a href="STADT_BE.htm">BE</a></b> ein (siehe oben). Dann werden die Felder ausgewählt, die bewirtschaftet werden, und zwar nach folgender Reihenfolge:</p>
+
+<table cellspacing="2" border="0" cellpadding="2" bgcolor="#d0d0d0">
+<tr><td valign=top><b>1.</b></td><td valign=top>Das Mittelfeld</td></tr>
+<tr><td valign=top><b>2.</b></td><td valign=top>Alle Felder, die mit dem Befehl <b>FB</b> bestimmt wurden. Wenn das zu viele sind, werden aktuellere <b>FB</b>-Befehle den älteren vorgezogen.</td></tr>
+<tr><td valign=top><b>3.</b></td><td valign=top>Wenn jetzt noch Arbeitskraft übrig ist, dann werden die Felder von der letzten Runde weiter bewirtschaftet.</td></tr>
+<tr><td valign=top><b>4.</b></td><td valign=top>Kann die Stadt noch mehr Felder bewirtschaften (z.B. wenn sie gewachsen ist), dann sucht sie sich neue Felder aus der Umgebung aus, die möglichst viel Nahrung haben. Bei gleicher Nahrung werden Felder mit möglichst vielen anderen Rohstoffen bevorzugt. Bedenke, daß dies alles in Phase 30 geschieht und deshalb das eine oder andere Feld, das am Ende der Runde schon Ackerland sein wird, zu diesem Zeitpunkt noch Grasland sein kann.</td></tr>
+</table>
+
+<p>Wie man sieht, kann man also mit <b>FB</b> Felder aussuchen, die einem besonders wichtig sind, aber nicht automatisch ausgesucht werden würden, weil sie nicht viel Nahrung haben.</p>
+
+<p><table cellspacing="5">
+<tr><td valign=top align=center><img src="beispiel.png"></td><td bgcolor="#d0d0d0" align=center valign=top><table bgcolor="#00c1ff" width="100%" cellpadding="4"><tr><td>Beispiel 1: Bat Crailthorn benötigt für den Bau seines ersten Schiffes unbedingt Holz. Deshalb will er statt einem Graslandfeld ein Nadelwaldfeld bewirtschaften. Er erteilt den Befehl <b>FBSSO</b> und sorgt dafür, daß der Nadelwald zwei Felder im Süden und eines im Osten bewirtschaftet wird. Die Stadt sucht sich automatisch ein anderes Feld aus, das stattdessen nicht mehr bewirtschaftet wird. Statt <b>FBSSO</b> hätte Bat auch <b>FBOSS</b> oder <b>FBNSWSNSWOOSO</b> aufschreiben können.</td></tr></table></td></tr>
+
+<tr><td valign=top align=center><img src="beispiel.png"></td><td bgcolor="#d0d0d0" align=center valign=top><table bgcolor="#00c1ff" width="100%" cellpadding="4"><tr><td>Beispiel 2: Schmirk Schraubenzinke weiß, daß seine Stadt Neo-Nezzrad in der nächsten Runde wachsen und deshalb mehr Felder bewirtschaften wird. Da er seinem östlichen Nachbarn versprochen hat, ihm das Feld <b>OO</b> zu überlassen, sagt er der Stadt mittels <b>FBSW</b> <b>FBW,</b> daß sie als nächstes die Felder <b>SW</b> und <b>W</b> bewirtschaften soll.</td></tr></table></td></tr>
+</table>
+
+<hr>
+<a href="STADT_BE.htm"><img src="zurueck.png" border="0"></a> 
+<a href="STADT_NB.htm"><img src="weiter.png" border="0"></a> 
+<a href="kpBefehl.htm"><img src="hoch.png" border="0"></a>
+<a href="index.htm"><img src="inhalt.png" border="0"></a>
+</body></html>

@@ -1,0 +1,38 @@
+<html><head><title>Reihe von Befehlen ständig wiederholen</title></head> <body bgcolor="#c0c0c0">
+<a href="UN.htm"><img src="zurueck.png" border="0"></a> 
+<a href="AV.htm"><img src="weiter.png" border="0"></a> 
+<a href="kpBefehl.htm"><img src="hoch.png" border="0"></a>
+<a href="index.htm"><img src="inhalt.png" border="0"></a>
+<hr>
+<!befehl><a name="WI">
+  <table border="0" width="100%" bgcolor="#d0d0d0" cellspacing="0">
+    <tr><td><font size="+2"><b>WI</b> <i>Befehl</i>/ <i>Befehl</i>/.../ <i>Befehl</i></font></td><td align=right><font size="+2">&nbsp;</font></td><tr>
+  </table>
+<!"Reihe von Befehlen ständig wiederholen"!><table cellpadding="2" width="100%"><tr><td><font size="+2"><b>Reihe von Befehlen ständig wiederholen</b></font></td><td align=right><font size="+2"><b>(Einheit)</b></font></td></tr></table>
+
+<p>Der Wiederholungsbefehl ist eine praktische Sache, wenn eine Einheit immer das Gleiche machen soll. Mit ihm kann man eine Reihe von Befehlen ständig wiederholen lassen. Die zu wiederholenden Befehle schreibt man direkt hinter <b>WI</b> und trennt sie mit Schrägstrichen <b>/</b>! Natürlich darf man dazwischen keine Kästchen freilassen, weil es ja insgesamt nur ein einziger großer Befehl werden soll. Richtig wäre z.B. <b>WIGZSAM/GZ0,5/GZ-3,-4.</b></p>
+<p>Die Einheit führt dann immer der Reihe nach die Befehle <b>GZSAM</b> <b>GZ0,5</b> und <b>GZ-3,-4</b> aus, bis man mit <b><a href="AA.htm">AA</a></b> alles abbricht. 
+<p><table cellspacing="5">
+<tr><td valign=top align=center><img src="merke.png"></td><td width="100%">Sollten in einem Durchgang alle Befehle keine Zeit benötigen, also keine einzige Phase, so wird der <b>WI</b>-Befehl beendet, damit es zu keiner Endlosschleife kommt! Also wird z.B. <b>WI<a href="RE.htm">RE</a>S</b> automatisch beendet, wenn es nach Süden nicht weitergeht.</td></tr>
+<tr><td valign=top align=center><img src="merke.png"></td><td width="100%">Die gesamte Länge des Befehls, darf 75 Zeichen nicht überschreiten. Ab dem 76. Zeichen, wird der Befehl abgeschnitten.</td></tr>
+<tr><td valign=top align=center><img src="merke.png"></td><td width="100%">Es ist nicht möglich, mehrere <b>WI</b>-Befehle zu verschachteln! Wenn man es trotzdem versucht, werden die inneren <b>WI</b>-Befehle ignoriert. <b>WIWI<a href="RE.htm">RE</a>O</b> bewirkt also garnichts.</td></tr>
+</table>
+
+Beispiele:</p>
+
+<p><table cellspacing="5">
+<tr><td valign=top align=center><img src="beispiel.png"></td><td bgcolor="#d0d0d0" align=center valign=top><table bgcolor="#00c1ff" width="100%" cellpadding="4"><tr><td>Wie kann ich dem Dampfschiff <b>HSC85</b> sagen, es soll solange nach Osten fahren, bis es auf Land stößt (<b><a href="EX.htm">EX</a></b> ist ungünstig, wenn man nicht will, daß sich die Richtung zu <b>NO</b> oder <b>SO</b> ändern kann)?<p><b>HSC85</b> <b>WI<a href="RE.htm">RE</a>O</b></td></tr></table></td></tr>
+
+<tr><td valign=top align=center><img src="beispiel.png"></td><td bgcolor="#d0d0d0" align=center valign=top><table bgcolor="#00c1ff" width="100%" cellpadding="4"><tr><td>Wie kann ich die Einheit <b>SIL51</b> zickzack fahren lassen, immer zwei Felder nach Nordosten und zwei nach Südosten?</p><p><b>SIL51</b> <b>WI<a href="RE.htm">RE</a>NO,NO,SO,SO</b></td></tr></table></td></tr>
+
+<tr><td valign=top align=center><img src="beispiel.png"></td><td bgcolor="#d0d0d0" align=center valign=top><table bgcolor="#00c1ff" width="100%" cellpadding="4"><tr><td>Der Öltanker <b>BAL56</b> soll die zwei Bohrinseln <b>STH24</b> und <b>STH26</b> anlaufen und das Öl in <b>BAL</b> ausladen. Und das immer wieder.</p><p><b>BAL56</b> <b>WI<a href="GZ.htm">GZ</a>STH24/<a href="BL.htm">BL</a>/<a href="GZ.htm">GZ</a>STH26/<a href="BL.htm">BL</a>/<a href="GZ.htm">GZ</a>BAL/<a href="EL.htm">EL</a></b></td></tr></table></td></tr>
+
+<tr><td valign=top align=center><img src="beispiel.png"></td><td bgcolor="#d0d0d0" align=center valign=top><table bgcolor="#00c1ff" width="100%" cellpadding="4"><tr><td>Der Bautrupp <b>KAR8</b> soll eine Schneise nach Süden durch den Urwald hacken und gleich Straßen bauen, bis es nicht weitergeht. Dann soll er nach <b>KAR</b> laufen und das Holz ausladen.</p><p><b>KAR8</b> <b>WI<a href="RE.htm">RE</a>S/<a href="WR.htm">WR</a>/<a href="ST.htm">ST</a></b> <b><a href="GZ.htm">GZ</a>KAR</b> <b><a href="EL.htm">EL</a></b></td></tr></table></td></tr>
+</table>
+
+<hr>
+<a href="UN.htm"><img src="zurueck.png" border="0"></a> 
+<a href="AV.htm"><img src="weiter.png" border="0"></a> 
+<a href="kpBefehl.htm"><img src="hoch.png" border="0"></a>
+<a href="index.htm"><img src="inhalt.png" border="0"></a>
+</body></html>

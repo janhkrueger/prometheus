@@ -1,0 +1,73 @@
+<html><head><title>Diplomatischen Status ändern</title></head> <body bgcolor="#c0c0c0">
+<a href="STAAT_MT.htm"><img src="zurueck.png" border="0"></a> 
+<a href="STAAT_KR.htm"><img src="weiter.png" border="0"></a> 
+<a href="kpBefehl.htm"><img src="hoch.png" border="0"></a>
+<a href="index.htm"><img src="inhalt.png" border="0"></a>
+<hr>
+<!befehl><a name="STAAT_DS">
+  <table border="0" width="100%" bgcolor="#d0d0d0" cellspacing="0">
+    <tr><td><font size="+2"><b>DS</b> <i>Abk</i>, <i>Status</i></font></td><td align=right><font size="+2">&nbsp;</font></td><tr>
+    <tr><td><font size="+2"><b>DS</b> <i>Status</i></font></td><td align=right><font size="+2">&nbsp;</font></td><tr>
+  </table>
+<!"Diplomatischen Status ändern"!><table cellpadding="2" width="100%"><tr><td valign=top><img src="wichtig.png"></td><td width="100%"><font size="+2"><b>Diplomatischen Status ändern</b></font></td><td align=right><font size="+2"><b>(Staat)</b></font></td></tr></table>
+
+<p>Wie überall in der Welt, wirst du auch bei <b>PROMETHEUS</b> Freunde und Feinde haben. Mit dem Befehl <b>DS</b> kannst du deine Einheiten und Städte darüber informieren, wen sie als Freund und wen als Feind betrachten sollen.</p>
+
+<p>Es gibt drei Möglichkeiten, wie du einem anderen Staat gesonnen sein kannst: freundlich (F), neutral (N) oder gegnerisch (G). Außerdem kann dies vorläufig (V) oder endgültig (E) sein. Den Status <b>VG</b> gibt es nicht. Du hast also insgesamt fünf Möglichkeiten:</p>
+
+<table cellspacing="2" border="0" cellpadding="2" bgcolor="#d0d0d0">
+<tr bgcolor="#e0e0e0"><td valign=top><b>Abk.</b></td><td valign=top><b>Bezeichnung</b></td><td valign=top><b>Bedeutung</b></td></tr>
+<tr><td valign=top><b>VF</b></td><td valign=top>vorläufig freundlich</td><td valign=top>Wenn du einem Staat gegenüber freundlich gesonnen bist, erlaubst du ihm, deinen Städten Einheiten zu überstellen oder dort anzusiedeln, bei deinen Einheiten und Städten Güter ein- und auszuladen, bei deinen Schiffen an Bord zu gehen, deine Einheiten automatisch zu begleiten oder auf sie zu warten, deine Städte als Ziel für Befehle (z. B. <b><a href="GZ.htm">GZ</a></b>) anzugeben. Außerdem unterstützen deine Einheiten den anderen Staat bei Angriff und Verteidigung. Die Einheiten des anderen Staates werden in ihren Bewegungen durch deine Einheiten nicht behindert.  Wenn dich ein vorläufig freundlicher Staat angreift, springt der Status zu ihm sofort auf <b>EG</b> um.</p>
+<p><p><table cellspacing="5"><tr><td valign=top align=center><img src="achtung.png"></td><td width="100%"><b>Von Einheiten, Einrichtungen und Städten eines vorläufig freundlichen Staates bekommst
+du keine Fernsichtungen. Du bekommst nur noch Meldungen von Objekten in angrenzenden
+Feldern!</b></td></tr></table></td></tr>
+
+<tr><td valign=top><b>EF</b></td><td valign=top>endgültig freundlich</td><td valign=top>Hier gibt es zwei wesentliche Unterschiede zu <b>VF:</b> Erstens ändert sich der Status niemals von selbst zu <b>EG</b>, wenn du von deinem vermeindlichen Freund angegriffen wirst, und zweitens kannst du selbst Einheiten des anderen Staates nicht mehr angreifen oder beschießen. Sie zählen wie eigene Einheiten und sind einfach Luft für deine Angriffe. Dies ist für die militärische Kooperation oft sehr wichtig, wenn man z.B. zu zweit eine Stadt angreift.<p><p><table cellspacing="5"><tr><td valign=top align=center><img src="achtung.png"></td><td width="100%"><b>Von Einheiten, Einrichtungen und Städten eines endgültig 
+freundlichen Staates bekommen deine Einheiten überhaupt keine Sichtungen mehr. Nur
+noch auf der Weltkarte kannst du sie sehen.</b></td></tr></table></td></tr>
+
+<tr><td valign=top><b>VN</b></td><td valign=top>vorläufig neutral</td><td valign=top>Neutralen Staaten erlaubst du nichts, sie werden aber von deinen Einheiten mit aggressiver Strategie auch nicht automatisch angegriffen. Wenn dich ein vorläufig neutraler Staat angreift, springt der Status sofort auf <b>EG</b> um.</td></tr>
+
+<tr><td valign=top><b>EN</b></td><td valign=top>endgültig neutral</td><td valign=top>Neutralen Staaten erlaubst du nichts, sie werden aber von deinen Einheiten mit aggressiver Strategie auch nicht automatisch angegriffen.</td></tr>
+
+<tr><td valign=top><b>EG</b></td><td valign=top>endgültig gegnerisch</td><td valign=top>Gegnerischen Staaten erlaubst Du natürlich erst recht nichts! Einheiten und Städte von gegnerischen Staaten werden von Einheiten mit einer Angriffsstrategie (siehe Befehl <b><a href="SW.htm">SW</a></b>) automatisch angegriffen, beschossen, bombardiert, eingenommen und was weiß ich noch alles.</td></tr>
+</table>
+
+<p>Mit <b>DS</b> <i>Abk</i>, <i>Status</i> stellst du für einen bestimmten Staat einen Status ein. Z.B. stellst du mit <b>DSSTA,VF</b> den Staat <b>STA</b> auf vorläufig freundlich.</p>
+<p><table cellspacing="5">
+<tr><td valign=top align=center><img src="knopf.png"></td><td width="100%">Wenn ein Status <b>endgültig</b> ist, kannst du ihn trotzdem 
+<b>jederzeit beliebig ändern</b>. Engültig heißt nur, daß er sich nicht von selbst ändern kann.
+</td></tr></table>
+
+<p>Staaten, die du noch nicht getroffen hast, kannst du keinen diplomatischen Status geben. Du kannst aber einen Status vorbereiten, der sofort verwendet wird, wenn du einem neuen Staat begegnest. Dazu läßt du bei <b>DS</b> einfach den Staat weg. <b>DSEG</b> erklärt alle unbekannten Staaten erst einmal zu Gegnern. Die Standardeinstellung ist <b>DSVN.</b> <b>DSVF</b> oder gar <b>DSEF</b> ist sehr riskant! Beispiele:</p>
+
+<p><table cellspacing="5">
+<tr><td valign=top align=center><img src="beispiel.png"></td><td bgcolor="#d0d0d0" align=center valign=top><table bgcolor="#00c1ff" width="100%" cellpadding="4"><tr><td>Bat Crailthorn ist einem neuen Mitspieler begegnet. Er nennt sich Sahib Olofka und regiert über den Staat Transsilvanien (<b>STG</b>). Die Abkürzung <b>STG</b> für Transsilvanien wurde auf Bats Printout zusammen mit der Adresse des Spielers ausgedruckt. Da Bat zuvor den Befehl <b>DSEG</b> geschaltet hatte, wird der diplomatische Status zu Tanssilvanien automatisch auf "engültig gegnerisch" eingestellt. Nach guten Verhandlungen mit dem neuen Nachbarn einigen sich das Dragonland von Bat und Transsilvanien auf freundschaftliche Beziehungen. Bat erteilt seinem Staat deshalb den Befehl '<b>DSSTG,VF</b>' und hofft darauf, daß der Sahib das gleiche macht. Nun können beide Staaten mit Gütern handeln, sich gegenseitig im Kampf unterstützen und auf andere Art zusammenarbeiten. </td></tr></table></td></tr>
+
+<tr><td valign=top align=center><img src="beispiel.png"></td><td bgcolor="#d0d0d0" align=center valign=top><table bgcolor="#00c1ff" width="100%" cellpadding="4"><tr><td>Drei Runden später wird Bat allerdings tief enttäuscht: Die Transsilvanier werden vertragsbrüchig und greifen an. Zum Glück jedoch hat Bat Crailthorn den Status nur auf "vorläufig freundlich" gestellt, und beim ersten Angriff gegen sein Reich wird automatisch auf <b>EG</b> (endgültig gegnerisch) umgeschaltet. Dadurch schlagen seine Truppen (die die Strategie 1 haben) sofort zurück.</td></tr></table></td></tr>
+</table>
+
+Und hier noch einige Tips:
+<p><table cellspacing="5">
+<tr><td valign=top align=center><img src="tip.png"></td><td width="100%">Mitspieler, denen du nicht trauen kannst (und das sind erstmal alle), solltest
+du nie die Gelegenheit geben, dein Reich auszuspionieren. Vor allem <b>Zeppeline</b> sind
+sehr beliebt zur Erkundung fremder Gebiete, weil sie als einzige Einheit jedes beliebige
+Feld der Welt überfliegen können. Eine gute Idee ist es daher, an den Grenzen deines Reiches
+Fernkampfeinheiten (z.B. Katapulte) aufzustellen mit der Strategie
+ <b><a href="SW.htm">SW</a>8</b>, die auf alles fliegende schießen. Damit dies klappt,
+mußt du aber vorher den Befehl <b>DSEG</b> geben, sonst werden fremde Staaten automatisch
+auf neutral eingestuft und nicht beschossen. Bis du den Status von Hand auf <b>EG</b>
+ umgestellt hast, kann der Eindringling schon viel gesehen haben.</td></tr>
+<tr><td valign=top align=center><img src="tip.png"></td><td width="100%">In Friedenszeiten sind die Strategien <b>VF</b> und <b>VN</b> den Strategien
+<b>EF</b> und <b>EN</b> eher vorzuziehen. Wenn man aber gemeinsam Krieg führt und
+die Schlacht anfängt, mächtig unübersichtlich zu werden, braucht man eine der endgültigen
+Strategien mit seinen Verbündeten. Ein versehentlicher Schuß kann sonst zum Umspringen
+der Strategie führen und ein furchtbares Gemetzel unter den Waffengefährten auslösen.</td></tr>
+</table>
+
+<hr>
+<a href="STAAT_MT.htm"><img src="zurueck.png" border="0"></a> 
+<a href="STAAT_KR.htm"><img src="weiter.png" border="0"></a> 
+<a href="kpBefehl.htm"><img src="hoch.png" border="0"></a>
+<a href="index.htm"><img src="inhalt.png" border="0"></a>
+</body></html>

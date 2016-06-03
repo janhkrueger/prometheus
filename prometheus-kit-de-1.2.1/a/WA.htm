@@ -1,0 +1,33 @@
+<html><head><title>Warten</title></head> <body bgcolor="#c0c0c0">
+<a href="AS.htm"><img src="zurueck.png" border="0"></a> 
+<a href="US.htm"><img src="weiter.png" border="0"></a> 
+<a href="kpBefehl.htm"><img src="hoch.png" border="0"></a>
+<a href="index.htm"><img src="inhalt.png" border="0"></a>
+<hr>
+<!befehl><a name="WA">
+  <table border="0" width="100%" bgcolor="#d0d0d0" cellspacing="0">
+    <tr><td><font size="+2"><b>WA</b> <i>Dauer</i></font></td><td align=right><font size="+2">&nbsp;Dauer:  <i>Dauer</i></font></td><tr>
+    <tr><td><font size="+2"><b>WA</b> <i>Abk</i></font></td><td align=right><font size="+2">&nbsp;Dauer: bis Einheit kommt</font></td><tr>
+    <tr><td><font size="+2"><b>WA:</b> <i>Phase</i></font></td><td align=right><font size="+2">&nbsp;Dauer: bis zu einer bestimmten Phase</font></td><tr>
+    <tr><td><font size="+2"><b>WA</b> <i>Koordinaten</i></font></td><td align=right><font size="+2">&nbsp;Dauer: bis Ankunft</font></td><tr>
+    <tr><td><font size="+2"><b>WAL</b></font></td><td align=right><font size="+2">&nbsp;Dauer: bis alle Einheiten ausgestiegen sind</font></td><tr>
+  </table>
+<!"Warten"!><table cellpadding="2" width="100%"><tr><td><font size="+2"><b>Warten</b></font></td><td align=right><font size="+2"><b>(Einheit)</b></font></td></tr></table>
+<p>Mit <b>WA</b> kann man schlichtweg warten. Und zwar entweder eine bestimmte Zeit lang, auf eine bestimmte Einheit, bis zu einer bestimmten Phase, bis gewisse Koordinaten erreicht sind (wenn die Einheit von einem Schiff gefahren wird), bis keine Einheit mehr im Konvoi ist (für ein Schiff, das Einheiten transportiert) oder bis auf weiteres.</p>
+
+<p><table cellspacing="5">
+<tr><td valign=top align=center><img src="beispiel.png"></td><td bgcolor="#d0d0d0" align=center valign=top><table bgcolor="#00c1ff" width="100%" cellpadding="4"><tr><td>Der Bautrupp <b>HOL6</b> soll Holz an die Karavane <b>FNO8</b> übergeben. Befehl für <b>HOL6:</b> '<b><a href="GZ.htm">GZ</a>FNO8</b>'. Befehl für <b>FNO8:</b> '<b>WAHOL6</b> <b><a href="BL.htm">BL</a>50H.</b> </td></tr></table></td></tr>
+
+<tr><td valign=top align=center><img src="beispiel.png"></td><td bgcolor="#d0d0d0" align=center valign=top><table bgcolor="#00c1ff" width="100%" cellpadding="4"><tr><td>Die Siedler <b>DRA11</b> kommen gleichzeitig mit den Siedlern <b>DRA10</b> am Ort der Gründung einer neuen Stadt an. Während die Stadt gegründet wird, warten sie mit <b>WA26</b> und lassen so 26 Phasen verstreichen. Erst dann werden sie mit <b><a href="AS.htm">AS</a></b> angesiedelt.</td></tr></table></td></tr>
+
+<tr><td valign=top align=center><img src="beispiel.png"></td><td bgcolor="#d0d0d0" align=center valign=top><table bgcolor="#00c1ff" width="100%" cellpadding="4"><tr><td>Das Transportschiff <b>SIL11</b> soll auslaufen, sobald der Panzer <b>SIL44</b> an Bord ist. <b>SIL11</b> steht bei 66,11. Befehle für <b>SIL44:</b> '<b><a href="GZ.htm">GZ</a>66,12</b> <b><a href="EM.htm">EM</a>S</b>'. Befehle für <b>SIL11:</b> '<b>WASIL44</b> <b><a href="RE.htm">RE</a>N,N,NO</b> <b><a href="EX.htm">EX</a>NO</b>'. Der Panzer soll bei 45,11 nach Norden aussteigen. Er bekommt deshalb die Befehle '<b>WA45,11</b> <b><a href="DE.htm">DE</a>N</b>'. Das Schiff bekommt die Befehle '<b><a href="GZ.htm">GZ</a>45,11</b> <b>WAL</b>'.</td></tr></table></td></tr>
+
+<tr><td valign=top align=center><img src="beispiel.png"></td><td bgcolor="#d0d0d0" align=center valign=top><table bgcolor="#00c1ff" width="100%" cellpadding="4"><tr><td>Drimbats und Bat Crailthorn planen einen gemeinsamen Angriff auf die Stadt Uruk. Drimbats soll vom Norden kommen und Bat vom Süden. Beide einigen sich darauf, daß der Angriff genau in Phase 60 beginnen soll. Deshalb schicken beide ihre Truppen auf die Ausgangsplätze und geben den Befehl '<b>WA:60</b>' gefolgt von den Angriffsbefehlen. Genau in Phase 60 beginnen dann alle Einheiten gleichzeitig mit den Aktionen.</td></tr></table></td></tr>
+</table>
+
+<hr>
+<a href="AS.htm"><img src="zurueck.png" border="0"></a> 
+<a href="US.htm"><img src="weiter.png" border="0"></a> 
+<a href="kpBefehl.htm"><img src="hoch.png" border="0"></a>
+<a href="index.htm"><img src="inhalt.png" border="0"></a>
+</body></html>
